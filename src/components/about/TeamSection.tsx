@@ -9,7 +9,7 @@ const TeamSection: React.FC = () => {
     { name: "Nathaniel", role: "Product", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616598870_2a80e99b.jpg", bio: "Product strategy expert with 15+ years in tech innovation and user experience design." },
     { name: "Jerry", role: "Solution", country: "Costa Rica", flag: "🇨🇷", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616596653_77055cad.jpg", bio: "Solution architect specializing in scalable distributed systems and blockchain infrastructure." },
     { name: "Manas", role: "Strategy", country: "India", flag: "🇮🇳", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616597371_d6b2cbb1.jpg", bio: "Strategic advisor with deep expertise in global market expansion and business development." },
-    { name: "Evan", role: "Business Development", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616595497_7e140b13.jpeg", bio: "Business development leader focused on partnership growth and market penetration strategies." },
+    { name: "Evan", role: "Marketing", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616595497_7e140b13.jpeg", bio: "Business development leader focused on partnership growth and market penetration strategies." },
     { name: "Martijn", role: "General Counsel", country: "Netherlands", flag: "🇳🇱", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616598124_3325b3c9.jpeg", bio: "Legal expert in technology law, regulatory compliance, and international business structures." }
   ];
 
