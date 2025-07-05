@@ -17,6 +17,9 @@ import Privacy from "./pages/Privacy";
 import Cookies from "./pages/Cookies";
 import NotFound from "./pages/NotFound";
 
+// 👇 NEW IMPORT
+import MobileMenu from "./components/Header";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -26,6 +29,9 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          {/* 👇 Only shows on small screens */}
+          <MobileMenu />
+
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/buyers-guide" element={<BuyersGuide />} />
