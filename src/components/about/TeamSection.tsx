@@ -6,17 +6,17 @@ import { Linkedin, MapPin, Award } from 'lucide-react';
 
 const TeamSection: React.FC = () => {
   const advisors = [
-    { name: "Cole", role: "Product", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616598870_2a80e99b.jpg", bio: "Product strategy expert with 15+ years in tech innovation and user experience design." },
-    { name: "Nathaniel", role: "Solution", country: "Costa Rica", flag: "🇨🇷", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616596653_77055cad.jpg", bio: "Solution architect specializing in scalable distributed systems and blockchain infrastructure." },
+    { name: "Nathaniel", role: "Product", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616598870_2a80e99b.jpg", bio: "Product strategy expert with 15+ years in tech innovation and user experience design." },
+    { name: "Jerry", role: "Solution", country: "Costa Rica", flag: "🇨🇷", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616596653_77055cad.jpg", bio: "Solution architect specializing in scalable distributed systems and blockchain infrastructure." },
     { name: "Manas", role: "Strategy", country: "India", flag: "🇮🇳", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616597371_d6b2cbb1.jpg", bio: "Strategic advisor with deep expertise in global market expansion and business development." },
-    { name: "Van", role: "Business Development", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616595497_7e140b13.jpeg", bio: "Business development leader focused on partnership growth and market penetration strategies." },
+    { name: "Evan", role: "Business Development", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616595497_7e140b13.jpeg", bio: "Business development leader focused on partnership growth and market penetration strategies." },
     { name: "Martijn", role: "General Counsel", country: "Netherlands", flag: "🇳🇱", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616598124_3325b3c9.jpeg", bio: "Legal expert in technology law, regulatory compliance, and international business structures." }
   ];
 
   const founders = [
-    { name: "Jerry", role: "Founder & Biz Leader", country: "Spain", flag: "🇪🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616599593_9ec2176c.jpg", bio: "Visionary entrepreneur with 20+ years building scalable tech companies and leading global teams." },
+    { name: "Ronald", role: "Founder & Biz Leader", country: "Spain", flag: "🇪🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616599593_9ec2176c.jpg", bio: "Visionary entrepreneur with 20+ years building scalable tech companies and leading global teams." },
     { name: "Yoonil", role: "Founder & Tech Lead", country: "S. Korea", flag: "🇰🇷", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616600284_9bc4c40c.jpg", bio: "Technical innovator specializing in distributed computing, AI systems, and blockchain architecture." },
-    { name: "Ronald", role: "Founder & Product Lead", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616593690_b2df9811.jpg", bio: "Product visionary with expertise in user-centric design and marketplace platform development." }
+    { name: "Cole", role: "Founder & Product Lead", country: "USA", flag: "🇺🇸", image: "https://d64gsuwffb70l.cloudfront.net/6860d25c16551e9c1ce34e45_1751616593690_b2df9811.jpg", bio: "Product visionary with expertise in user-centric design and marketplace platform development." }
   ];
 
   const TeamCard = ({ member, isFounder }: { member: any; isFounder?: boolean }) => (
